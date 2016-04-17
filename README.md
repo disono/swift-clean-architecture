@@ -1,2 +1,1 @@
-# swift-clean-architecture
-Swift Clean Architecture
+# Swift Clean Architecture
