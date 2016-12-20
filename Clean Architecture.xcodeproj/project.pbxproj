@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410BB8CF1DA37E49003DDB88 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BB8CE1DA37E49003DDB88 /* RegisterPageViewController.swift */; };
 		4153404D1CC31E7700491E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4153404C1CC31E7700491E31 /* AppDelegate.swift */; };
 		4153404F1CC31E7700491E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4153404E1CC31E7700491E31 /* ViewController.swift */; };
 		415340521CC31E7700491E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415340501CC31E7700491E31 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		410BB8CE1DA37E49003DDB88 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		415340491CC31E7700491E31 /* Clean Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4153404C1CC31E7700491E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4153404E1CC31E7700491E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		41CFEA2B1CC3203300EE8072 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				410BB8CE1DA37E49003DDB88 /* RegisterPageViewController.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				TargetAttributes = {
 					415340481CC31E7700491E31 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8Z37B34MKC;
 					};
 				};
 			};
@@ -169,6 +173,7 @@
 			files = (
 				4153404F1CC31E7700491E31 /* ViewController.swift in Sources */,
 				4153404D1CC31E7700491E31 /* AppDelegate.swift in Sources */,
+				410BB8CF1DA37E49003DDB88 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Clean Architecture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "disono.com.webmons.Clean-Architecture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -294,10 +302,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Clean Architecture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "disono.com.webmons.Clean-Architecture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
